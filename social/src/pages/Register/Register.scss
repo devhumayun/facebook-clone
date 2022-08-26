@@ -1,0 +1,197 @@
+.register_section{
+    background: rgba( 255,255, 255, .06 );
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    .register_body{
+        width: 430px;
+        background: #ffffff;
+        box-shadow: 0 .5rem 1remrgba(0,0,0,.15);
+        border-radius: 5px;
+
+        .header_content{
+            padding: 10px 0px;
+            border-bottom: 1px solid #e9e9e9;
+
+            h4{
+                font-size: 30px;
+                font-weight: 700;
+                padding: 0px 20px;
+            }
+            span{
+                padding: 0px 20px;
+            }
+        }
+
+        .form_area{
+
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 20px 20px;
+                
+                .name_field{
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 10px;
+                    margin-bottom: 10px;
+
+                    :focus{
+                        outline: none;
+                    }
+
+                    .first_name{
+                        border: 1px solid #e9e9e9;
+                        padding: 10px 13px;
+                        background: #F5F6F7;
+                        font-size: 15px;
+                        border-radius: 5px;
+                        width: 80%;
+                    }
+
+                    .username{
+                        border: 1px solid #e9e9e9;
+                        padding: 10px 13px;
+                        background: #F5F6F7;
+                        font-size: 15px;
+                        border-radius: 5px;
+                        width: 80%;
+                    }
+                }
+
+                .email_feild{
+                    border: 1px solid #e9e9e9;
+                    padding: 10px 13px;
+                    width: 100%;
+                    margin-bottom: 10px;
+                    background: #F5F6F7;
+                    font-size: 15px;
+                    border-radius: 5px;
+                }
+
+                .new_password{
+                    border: 1px solid #e9e9e9;
+                    padding: 10px 13px;
+                    width: 100%;
+                    margin-bottom: 10px;
+                    background: #F5F6F7;
+                    font-size: 15px;
+                    border-radius: 5px;
+                    margin-bottom: 15px;
+                }
+
+                label{
+                    text-align: left;
+                    display: inline-block;
+                    width: 100%;
+                    font-size: 14px;
+                }
+
+                .date_box{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    margin-bottom: 15px;
+
+                    .date{
+
+                        select{
+                            width: 117px;
+                            padding: 7px 5px;
+                            border: 1px solid #e9e9e9;
+                            }
+                    }
+
+                    .month{
+
+                        select{
+                            width: 117px;
+                            padding: 7px 5px;
+                            border: 1px solid #e9e9e9;
+                            }
+
+                    }
+
+                    .year{
+
+                        select{
+                            width: 117px;
+                            padding: 7px 5px;
+                            border: 1px solid #e9e9e9;
+                            }
+
+                    }
+
+                }
+
+                .gender_box{
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .femal{
+                        display: flex;
+                        width: 30%;
+                        border: 1px solid #e9e9e9;
+                        padding: 8px 10px;
+                    }
+
+                    .male{
+                        display: flex;
+                        width: 30%;
+                        border: 1px solid #e9e9e9;
+                        padding: 8px 10px;
+                    }
+
+                    .custom{
+                        display: flex;
+                        width: 30%;
+                        border: 1px solid #e9e9e9;
+                        padding: 8px 10px;
+                    }
+                }
+
+
+                .content{
+
+                    p{
+                        color: #777;
+                        font-size: 11px;
+                        margin: 12px 0px;
+
+                        a{
+                            text-decoration: none;
+                            color: #1877F2;
+                            font-weight: 500;
+
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+
+                .submit_button{
+                    display: inline-block;
+                    border: none;
+                    background: #00a400;
+                    color: #fff;
+                    font-weight: 700;
+                    padding: 7px 65px;
+                    font-size: 19px;
+                    border-radius: 5px;
+                    margin: 5px 0px;
+                }
+            }
+        }
+
+    }
+}
